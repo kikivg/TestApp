@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A32609285100E5D8D2 /* AppDelegate.swift */; };
 		27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */; };
 		27A9E3A82609285100E5D8D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A72609285100E5D8D2 /* ViewController.swift */; };
-		27A9E3AB2609285100E5D8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3A92609285100E5D8D2 /* Main.storyboard */; };
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
 		27A9E3B02609285400E5D8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AE2609285400E5D8D2 /* LaunchScreen.storyboard */; };
 		27A9E3BB2609285400E5D8D2 /* HealiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3BA2609285400E5D8D2 /* HealiosTests.swift */; };
 		27A9E3C62609285400E5D8D2 /* HealiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3C52609285400E5D8D2 /* HealiosUITests.swift */; };
+		27A9E3DC260931E600E5D8D2 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3DB260931E600E5D8D2 /* AppModule.swift */; };
+		27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */; };
+		27A9E3E9260933EC00E5D8D2 /* PostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */; };
+		27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3FB260935F900E5D8D2 /* AppRouter.swift */; };
+		27A9E403260938C400E5D8D2 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E402260938C400E5D8D2 /* Factory.swift */; };
+		976E7A776581E734FCE5FEB1 /* Pods_Healios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F497C3D18CFDF881AA6FE64B /* Pods_Healios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		27A9E3A32609285100E5D8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A72609285100E5D8D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27A9E3AA2609285100E5D8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27A9E3AC2609285400E5D8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A9E3AF2609285400E5D8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A9E3B12609285400E5D8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		27A9E3C12609285400E5D8D2 /* HealiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3C52609285400E5D8D2 /* HealiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealiosUITests.swift; sourceTree = "<group>"; };
 		27A9E3C72609285400E5D8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A9E3DB260931E600E5D8D2 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
+		27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsViewController.xib; sourceTree = "<group>"; };
+		27A9E3FB260935F900E5D8D2 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		27A9E402260938C400E5D8D2 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		64E912A4C0836D514AAA2010 /* Pods-Healios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.release.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.release.xcconfig"; sourceTree = "<group>"; };
+		F01EE5919F422AE093B200A8 /* Pods-Healios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.debug.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.debug.xcconfig"; sourceTree = "<group>"; };
+		F497C3D18CFDF881AA6FE64B /* Pods_Healios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976E7A776581E734FCE5FEB1 /* Pods_Healios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				27A9E3B92609285400E5D8D2 /* HealiosTests */,
 				27A9E3C42609285400E5D8D2 /* HealiosUITests */,
 				27A9E3A12609285100E5D8D2 /* Products */,
+				A03892CB8D2A9FF64EDC57DE /* Pods */,
+				D6D0DDF00D7BD2540D8D2A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +114,14 @@
 		27A9E3A22609285100E5D8D2 /* Healios */ = {
 			isa = PBXGroup;
 			children = (
+				27A9E3E02609329500E5D8D2 /* App */,
+				27A9E400260937ED00E5D8D2 /* Core */,
+				27A9E3E12609329D00E5D8D2 /* Features */,
 				27A9E3A32609285100E5D8D2 /* AppDelegate.swift */,
 				27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */,
 				27A9E3A72609285100E5D8D2 /* ViewController.swift */,
-				27A9E3A92609285100E5D8D2 /* Main.storyboard */,
+				27A9E3DB260931E600E5D8D2 /* AppModule.swift */,
+				27A9E3FB260935F900E5D8D2 /* AppRouter.swift */,
 				27A9E3AC2609285400E5D8D2 /* Assets.xcassets */,
 				27A9E3AE2609285400E5D8D2 /* LaunchScreen.storyboard */,
 				27A9E3B12609285400E5D8D2 /* Info.plist */,
@@ -128,6 +147,87 @@
 			path = HealiosUITests;
 			sourceTree = "<group>";
 		};
+		27A9E3E02609329500E5D8D2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		27A9E3E12609329D00E5D8D2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				27A9E3E2260932AA00E5D8D2 /* Posts */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		27A9E3E2260932AA00E5D8D2 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				27A9E3E32609333400E5D8D2 /* UI */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		27A9E3E32609333400E5D8D2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				27A9E3E42609333F00E5D8D2 /* Posts */,
+				27A9E3E52609334800E5D8D2 /* PostDetails */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		27A9E3E42609333F00E5D8D2 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */,
+				27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		27A9E3E52609334800E5D8D2 /* PostDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PostDetails;
+			sourceTree = "<group>";
+		};
+		27A9E400260937ED00E5D8D2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				27A9E4012609380100E5D8D2 /* DependencyInjection */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		27A9E4012609380100E5D8D2 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				27A9E402260938C400E5D8D2 /* Factory.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		A03892CB8D2A9FF64EDC57DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F01EE5919F422AE093B200A8 /* Pods-Healios.debug.xcconfig */,
+				64E912A4C0836D514AAA2010 /* Pods-Healios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6D0DDF00D7BD2540D8D2A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F497C3D18CFDF881AA6FE64B /* Pods_Healios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27A9E3CA2609285400E5D8D2 /* Build configuration list for PBXNativeTarget "Healios" */;
 			buildPhases = (
+				01D60E8C3620367A7355EDC4 /* [CP] Check Pods Manifest.lock */,
 				27A9E39C2609285100E5D8D2 /* Sources */,
 				27A9E39D2609285100E5D8D2 /* Frameworks */,
 				27A9E39E2609285100E5D8D2 /* Resources */,
+				88931AEC92A1B27FA43DFC27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A9E3E9260933EC00E5D8D2 /* PostsViewController.xib in Resources */,
 				27A9E3B02609285400E5D8D2 /* LaunchScreen.storyboard in Resources */,
 				27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */,
-				27A9E3AB2609285100E5D8D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +355,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01D60E8C3620367A7355EDC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Healios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88931AEC92A1B27FA43DFC27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Healios/Pods-Healios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Healios/Pods-Healios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Healios/Pods-Healios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27A9E39C2609285100E5D8D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				27A9E3A82609285100E5D8D2 /* ViewController.swift in Sources */,
+				27A9E3DC260931E600E5D8D2 /* AppModule.swift in Sources */,
+				27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */,
 				27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */,
 				27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */,
+				27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */,
+				27A9E403260938C400E5D8D2 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +444,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		27A9E3A92609285100E5D8D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27A9E3AA2609285100E5D8D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27A9E3AE2609285400E5D8D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +573,7 @@
 		};
 		27A9E3CB2609285400E5D8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01EE5919F422AE093B200A8 /* Pods-Healios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +592,7 @@
 		};
 		27A9E3CC2609285400E5D8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E912A4C0836D514AAA2010 /* Pods-Healios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

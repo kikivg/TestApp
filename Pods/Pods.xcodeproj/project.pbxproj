@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8BC2626CE98B39D4403C1818FDFBF4 /* Pods-Healios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A82AB5D4563A9DECE6C4572DDC242E /* Pods-Healios-dummy.m */; };
+		27C05D427A1A44127B64665308D8DCD7 /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23726FCF82432D41676BC0B42AEB0BE3 /* StoryboardInstantiatable.swift */; };
+		2B3BD36FBE674973E8C00733305EE4F9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CF838E5FDA3680901980F9D2DD8FEA /* Utils.swift */; };
+		3F3D50B3F17452448B5C093D1BF6D56A /* Dip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C158C5D2B7D64AECC9D75FFFA2F5D73C /* Dip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51DA8C94B9DDCB34E8C25A8068C16DB5 /* DipError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B58B4418E089C93B56141F349B1EA60 /* DipError.swift */; };
+		535DB798C0587057DE920C76DB6CED5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5420B38B00753C06773FA41AB35DBCC3 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396764D5FC610A6E90142F16F834591 /* Register.swift */; };
+		61694DCB8E33E5E33EE0F8905D8C8AFC /* Pods-Healios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8937D38381E93CAF144E0600CD485E /* Pods-Healios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6383A40017011DDA3ACDAAD4F3EEFB18 /* ComponentScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD88997E85D2023A4B176BAAACD2A /* ComponentScope.swift */; };
+		66B70EF1B3A562FF6DF548E235157718 /* Dip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C5ADC975486C4EA2BBCD01C414D07 /* Dip-dummy.m */; };
+		6AE1257A3421A70493C90995F6844D97 /* AutoWiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AB30963B2A782DC1430403BBBA8AB /* AutoWiring.swift */; };
+		840C67784E407BCE5EA57B8BE6B09D1C /* Resolve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A33756249C3CCBA5A8623EF1DC6D37 /* Resolve.swift */; };
+		AF643286A1FE91B26AE47983DCFA2F5F /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDF088E0794584BE719299F8A7666C /* Definition.swift */; };
+		B625784BB41F9A28BB32BE23DAEA84C1 /* RuntimeArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF77582384E23C82D4BDCBEBA66AF2 /* RuntimeArguments.swift */; };
+		BD8A8157ACDBC1331E20DFB055470989 /* Dip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233724F5193B0C85DA09C4531AAE2F8 /* Dip.swift */; };
+		C18FF56DEC6AF8B8F8F579A5283DB664 /* AutoInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58968EA676ADDAD9A59FD6248DD62D08 /* AutoInjection.swift */; };
+		D52441FCF219FC94E971543826C09C1E /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6A17BB52AD283643F48D21D048873 /* Compatibility.swift */; };
+		D8E553C390E591D100BB4F4B7215F701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E0402AD2187A8E7804C59C3F2E4CD552 /* TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DBA0A742EB8FDBD69C9EC7F4D3AA5 /* TypeForwarding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1C38E7005E98DDD65BA2AFBBBA9449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D8CA1C46200A73989FC3AD76FCBE3;
+			remoteInfo = Dip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106C5ADC975486C4EA2BBCD01C414D07 /* Dip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dip-dummy.m"; sourceTree = "<group>"; };
+		1B58B4418E089C93B56141F349B1EA60 /* DipError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DipError.swift; path = Sources/DipError.swift; sourceTree = "<group>"; };
+		1BB6A17BB52AD283643F48D21D048873 /* Compatibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compatibility.swift; path = Sources/Compatibility.swift; sourceTree = "<group>"; };
+		20445E1E63E4837DE7A91BC482A94384 /* Dip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dip-prefix.pch"; sourceTree = "<group>"; };
+		23726FCF82432D41676BC0B42AEB0BE3 /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardInstantiatable.swift; path = Sources/StoryboardInstantiatable.swift; sourceTree = "<group>"; };
+		29DA9B57C2FE7437622F8812A32EEFAB /* Dip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dip.modulemap; sourceTree = "<group>"; };
+		2F6BD88997E85D2023A4B176BAAACD2A /* ComponentScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentScope.swift; path = Sources/ComponentScope.swift; sourceTree = "<group>"; };
+		3208CEDD9926C08AEAFB8E7CD29C83F7 /* Pods-Healios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Healios.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32F077C5D1CE4C9024077C06666796D2 /* Pods_Healios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Healios.framework; path = "Pods-Healios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D232F2C02DE5BB8B70A32FD20918971 /* Pods-Healios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Healios.modulemap"; sourceTree = "<group>"; };
+		4396764D5FC610A6E90142F16F834591 /* Register.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Register.swift; path = Sources/Register.swift; sourceTree = "<group>"; };
+		53E3D68ADD948A24DFFD962A745D97BC /* Pods-Healios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Healios-frameworks.sh"; sourceTree = "<group>"; };
+		58968EA676ADDAD9A59FD6248DD62D08 /* AutoInjection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoInjection.swift; path = Sources/AutoInjection.swift; sourceTree = "<group>"; };
+		5B0DBA0A742EB8FDBD69C9EC7F4D3AA5 /* TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeForwarding.swift; path = Sources/TypeForwarding.swift; sourceTree = "<group>"; };
+		5CC0B0F7EC20C251BA87ECE03116CFC6 /* Dip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dip.release.xcconfig; sourceTree = "<group>"; };
+		68CF838E5FDA3680901980F9D2DD8FEA /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		7A8937D38381E93CAF144E0600CD485E /* Pods-Healios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Healios-umbrella.h"; sourceTree = "<group>"; };
+		82A33756249C3CCBA5A8623EF1DC6D37 /* Resolve.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolve.swift; path = Sources/Resolve.swift; sourceTree = "<group>"; };
+		968D4B002747459D4FD8E58259E7C878 /* Dip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dip.framework; path = Dip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E7D1B131F46A1BC999C4E42642B2FF /* Pods-Healios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Healios.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17AB30963B2A782DC1430403BBBA8AB /* AutoWiring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoWiring.swift; path = Sources/AutoWiring.swift; sourceTree = "<group>"; };
+		A4C86569BF1577B7D91DC387162CCF16 /* Dip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dip.debug.xcconfig; sourceTree = "<group>"; };
+		A8CF77582384E23C82D4BDCBEBA66AF2 /* RuntimeArguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeArguments.swift; path = Sources/RuntimeArguments.swift; sourceTree = "<group>"; };
+		ABF0F20BB0EB8D7D916F0BD95F6CFFA7 /* Pods-Healios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Healios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2FDF088E0794584BE719299F8A7666C /* Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Definition.swift; path = Sources/Definition.swift; sourceTree = "<group>"; };
+		B88A52DBE29C9E726B64C551841DD7BD /* Dip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dip-Info.plist"; sourceTree = "<group>"; };
+		C158C5D2B7D64AECC9D75FFFA2F5D73C /* Dip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dip-umbrella.h"; sourceTree = "<group>"; };
+		D14A78563FB3401AC3D5A71AFADCD69A /* Pods-Healios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Healios-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE81CCA0CAD3BEFDE76F9BB179C0C8B8 /* Pods-Healios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Healios-Info.plist"; sourceTree = "<group>"; };
+		E233724F5193B0C85DA09C4531AAE2F8 /* Dip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dip.swift; path = Sources/Dip.swift; sourceTree = "<group>"; };
+		E3A82AB5D4563A9DECE6C4572DDC242E /* Pods-Healios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Healios-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A08993A7CF504E256737870431C8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E553C390E591D100BB4F4B7215F701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57E124A45905FB2BA5E8C1AE772F632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535DB798C0587057DE920C76DB6CED5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F6A3DCFD86C2DCBA853CF97F225E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968D4B002747459D4FD8E58259E7C878 /* Dip.framework */,
+				32F077C5D1CE4C9024077C06666796D2 /* Pods_Healios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CAFDCBCE8A2477933EAB85DFB737C63B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F492330F138D6E924A2F1F0E081603C4 /* Pods-Healios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D3DF34F4CB12ADE30C6C09133FB8A2B7 /* Pods */,
+				31F6A3DCFD86C2DCBA853CF97F225E00 /* Products */,
+				CAFDCBCE8A2477933EAB85DFB737C63B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3DF34F4CB12ADE30C6C09133FB8A2B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5071D78EB29BCC5CDE2962468D5B691 /* Dip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5071D78EB29BCC5CDE2962468D5B691 /* Dip */ = {
+			isa = PBXGroup;
+			children = (
+				58968EA676ADDAD9A59FD6248DD62D08 /* AutoInjection.swift */,
+				A17AB30963B2A782DC1430403BBBA8AB /* AutoWiring.swift */,
+				1BB6A17BB52AD283643F48D21D048873 /* Compatibility.swift */,
+				2F6BD88997E85D2023A4B176BAAACD2A /* ComponentScope.swift */,
+				B2FDF088E0794584BE719299F8A7666C /* Definition.swift */,
+				E233724F5193B0C85DA09C4531AAE2F8 /* Dip.swift */,
+				1B58B4418E089C93B56141F349B1EA60 /* DipError.swift */,
+				4396764D5FC610A6E90142F16F834591 /* Register.swift */,
+				82A33756249C3CCBA5A8623EF1DC6D37 /* Resolve.swift */,
+				A8CF77582384E23C82D4BDCBEBA66AF2 /* RuntimeArguments.swift */,
+				23726FCF82432D41676BC0B42AEB0BE3 /* StoryboardInstantiatable.swift */,
+				5B0DBA0A742EB8FDBD69C9EC7F4D3AA5 /* TypeForwarding.swift */,
+				68CF838E5FDA3680901980F9D2DD8FEA /* Utils.swift */,
+				FFD39AAB0837629BA64E4BC47C5B723C /* Support Files */,
+			);
+			name = Dip;
+			path = Dip;
+			sourceTree = "<group>";
+		};
+		F492330F138D6E924A2F1F0E081603C4 /* Pods-Healios */ = {
+			isa = PBXGroup;
+			children = (
+				3D232F2C02DE5BB8B70A32FD20918971 /* Pods-Healios.modulemap */,
+				ABF0F20BB0EB8D7D916F0BD95F6CFFA7 /* Pods-Healios-acknowledgements.markdown */,
+				D14A78563FB3401AC3D5A71AFADCD69A /* Pods-Healios-acknowledgements.plist */,
+				E3A82AB5D4563A9DECE6C4572DDC242E /* Pods-Healios-dummy.m */,
+				53E3D68ADD948A24DFFD962A745D97BC /* Pods-Healios-frameworks.sh */,
+				DE81CCA0CAD3BEFDE76F9BB179C0C8B8 /* Pods-Healios-Info.plist */,
+				7A8937D38381E93CAF144E0600CD485E /* Pods-Healios-umbrella.h */,
+				3208CEDD9926C08AEAFB8E7CD29C83F7 /* Pods-Healios.debug.xcconfig */,
+				99E7D1B131F46A1BC999C4E42642B2FF /* Pods-Healios.release.xcconfig */,
+			);
+			name = "Pods-Healios";
+			path = "Target Support Files/Pods-Healios";
+			sourceTree = "<group>";
+		};
+		FFD39AAB0837629BA64E4BC47C5B723C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29DA9B57C2FE7437622F8812A32EEFAB /* Dip.modulemap */,
+				106C5ADC975486C4EA2BBCD01C414D07 /* Dip-dummy.m */,
+				B88A52DBE29C9E726B64C551841DD7BD /* Dip-Info.plist */,
+				20445E1E63E4837DE7A91BC482A94384 /* Dip-prefix.pch */,
+				C158C5D2B7D64AECC9D75FFFA2F5D73C /* Dip-umbrella.h */,
+				A4C86569BF1577B7D91DC387162CCF16 /* Dip.debug.xcconfig */,
+				5CC0B0F7EC20C251BA87ECE03116CFC6 /* Dip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dip";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		991CC853E062C404656F3AFCDA488D54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D50B3F17452448B5C093D1BF6D56A /* Dip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1DEBF6310E8C9020B1E9595B7CC229 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61694DCB8E33E5E33EE0F8905D8C8AFC /* Pods-Healios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A83D8CA1C46200A73989FC3AD76FCBE3 /* Dip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E41630E91226B8EF9264C67E8E0E29F /* Build configuration list for PBXNativeTarget "Dip" */;
+			buildPhases = (
+				991CC853E062C404656F3AFCDA488D54 /* Headers */,
+				F56551C4AA8E040151B2BD2B59A527FE /* Sources */,
+				C57E124A45905FB2BA5E8C1AE772F632 /* Frameworks */,
+				0D487C7229A9545B1B808CFB272666C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dip;
+			productName = Dip;
+			productReference = 968D4B002747459D4FD8E58259E7C878 /* Dip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3549A72C46B2AC8AD7A0A9C64F38A11 /* Pods-Healios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AC5194547107065367DCB20B7A0B82 /* Build configuration list for PBXNativeTarget "Pods-Healios" */;
+			buildPhases = (
+				CF1DEBF6310E8C9020B1E9595B7CC229 /* Headers */,
+				7BA43BD3A86297B7B7A3805098DC6E7C /* Sources */,
+				49A08993A7CF504E256737870431C8BB /* Frameworks */,
+				3F901EAE3D8766C4492DBB35FF6FAA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F9078EB5E5393DCF474245569D0054 /* PBXTargetDependency */,
+			);
+			name = "Pods-Healios";
+			productName = "Pods-Healios";
+			productReference = 32F077C5D1CE4C9024077C06666796D2 /* Pods_Healios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 31F6A3DCFD86C2DCBA853CF97F225E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83D8CA1C46200A73989FC3AD76FCBE3 /* Dip */,
+				D3549A72C46B2AC8AD7A0A9C64F38A11 /* Pods-Healios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D487C7229A9545B1B808CFB272666C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F901EAE3D8766C4492DBB35FF6FAA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA43BD3A86297B7B7A3805098DC6E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8BC2626CE98B39D4403C1818FDFBF4 /* Pods-Healios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56551C4AA8E040151B2BD2B59A527FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18FF56DEC6AF8B8F8F579A5283DB664 /* AutoInjection.swift in Sources */,
+				6AE1257A3421A70493C90995F6844D97 /* AutoWiring.swift in Sources */,
+				D52441FCF219FC94E971543826C09C1E /* Compatibility.swift in Sources */,
+				6383A40017011DDA3ACDAAD4F3EEFB18 /* ComponentScope.swift in Sources */,
+				AF643286A1FE91B26AE47983DCFA2F5F /* Definition.swift in Sources */,
+				66B70EF1B3A562FF6DF548E235157718 /* Dip-dummy.m in Sources */,
+				BD8A8157ACDBC1331E20DFB055470989 /* Dip.swift in Sources */,
+				51DA8C94B9DDCB34E8C25A8068C16DB5 /* DipError.swift in Sources */,
+				5420B38B00753C06773FA41AB35DBCC3 /* Register.swift in Sources */,
+				840C67784E407BCE5EA57B8BE6B09D1C /* Resolve.swift in Sources */,
+				B625784BB41F9A28BB32BE23DAEA84C1 /* RuntimeArguments.swift in Sources */,
+				27C05D427A1A44127B64665308D8DCD7 /* StoryboardInstantiatable.swift in Sources */,
+				E0402AD2187A8E7804C59C3F2E4CD552 /* TypeForwarding.swift in Sources */,
+				2B3BD36FBE674973E8C00733305EE4F9 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F9078EB5E5393DCF474245569D0054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dip;
+			target = A83D8CA1C46200A73989FC3AD76FCBE3 /* Dip */;
+			targetProxy = AD1C38E7005E98DDD65BA2AFBBBA9449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B09C8D512013FC7149555A81BC152C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E7D1B131F46A1BC999C4E42642B2FF /* Pods-Healios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Healios/Pods-Healios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Healios/Pods-Healios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		683C6F24C304C76FF47F837A0B08BD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3208CEDD9926C08AEAFB8E7CD29C83F7 /* Pods-Healios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Healios/Pods-Healios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Healios/Pods-Healios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E6091A3B2E906EBDC1EB729220F67A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC0B0F7EC20C251BA87ECE03116CFC6 /* Dip.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dip/Dip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dip/Dip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dip/Dip.modulemap";
+				PRODUCT_MODULE_NAME = Dip;
+				PRODUCT_NAME = Dip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BEE328907EEC301124DD0964132BCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C86569BF1577B7D91DC387162CCF16 /* Dip.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dip/Dip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dip/Dip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dip/Dip.modulemap";
+				PRODUCT_MODULE_NAME = Dip;
+				PRODUCT_NAME = Dip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AC5194547107065367DCB20B7A0B82 /* Build configuration list for PBXNativeTarget "Pods-Healios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683C6F24C304C76FF47F837A0B08BD8C /* Debug */,
+				06B09C8D512013FC7149555A81BC152C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E41630E91226B8EF9264C67E8E0E29F /* Build configuration list for PBXNativeTarget "Dip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEE328907EEC301124DD0964132BCDC /* Debug */,
+				6E6091A3B2E906EBDC1EB729220F67A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
