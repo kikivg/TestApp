@@ -1,16 +1,64 @@
 PODS:
+  - Alamofire (5.4.1)
+  - Differentiator (5.0.0)
   - Dip (7.1.1)
+  - Moya/Core (15.0.0-alpha.1):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0-alpha.1):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - Dip
+  - Moya/RxSwift (from `https://github.com/Moya/Moya.git`, branch `development`)
+  - RxCocoa (= 6.1.0)
+  - RxDataSources (~> 5.0)
+  - RxSwift (= 6.1.0)
+  - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - Differentiator
     - Dip
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Moya:
+    :branch: development
+    :git: https://github.com/Moya/Moya.git
+
+CHECKOUT OPTIONS:
+  Moya:
+    :commit: e84f8a2c28874e8b50bd9db5571d094ae72a0216
+    :git: https://github.com/Moya/Moya.git
 
 SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   Dip: 6bebb09d50f88633039ce2c9fe5bc56d387b492f
+  Moya: 1a04c3836ce1cd20430c176d1318436cbd1371a1
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 41b76f911692ca1984af43c5e26bd20497e82018
+PODFILE CHECKSUM: eb6be3ff55171273d08dd568c9eb3147a10f6b25
 
 COCOAPODS: 1.9.1

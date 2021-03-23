@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A00DB8260A63AB00890034 /* PostAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DB7260A63AB00890034 /* PostAPIModel.swift */; };
+		27A00DC0260A63D900890034 /* UserAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DBF260A63D900890034 /* UserAPIModel.swift */; };
+		27A00DC5260A63E900890034 /* CommentAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DC4260A63E900890034 /* CommentAPIModel.swift */; };
+		27A00DCA260A63F800890034 /* AddressAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DC9260A63F800890034 /* AddressAPIModel.swift */; };
+		27A00DCF260A640900890034 /* CompanyAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DCE260A640900890034 /* CompanyAPIModel.swift */; };
+		27A00DD4260A641800890034 /* GeoAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DD3260A641800890034 /* GeoAPIModel.swift */; };
+		27A00DD9260A66E400890034 /* APISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DD8260A66E400890034 /* APISpec.swift */; };
+		27A00DDE260A692B00890034 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DDD260A692B00890034 /* NetworkService.swift */; };
+		27A00DE3260A6EE800890034 /* MoyaProvider+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DE2260A6EE800890034 /* MoyaProvider+Request.swift */; };
+		27A00DE8260A718A00890034 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DE7260A718A00890034 /* Networkable.swift */; };
 		27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A32609285100E5D8D2 /* AppDelegate.swift */; };
 		27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */; };
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
@@ -39,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27A00DB7260A63AB00890034 /* PostAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAPIModel.swift; sourceTree = "<group>"; };
+		27A00DBF260A63D900890034 /* UserAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIModel.swift; sourceTree = "<group>"; };
+		27A00DC4260A63E900890034 /* CommentAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentAPIModel.swift; sourceTree = "<group>"; };
+		27A00DC9260A63F800890034 /* AddressAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressAPIModel.swift; sourceTree = "<group>"; };
+		27A00DCE260A640900890034 /* CompanyAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyAPIModel.swift; sourceTree = "<group>"; };
+		27A00DD3260A641800890034 /* GeoAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAPIModel.swift; sourceTree = "<group>"; };
+		27A00DD8260A66E400890034 /* APISpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISpec.swift; sourceTree = "<group>"; };
+		27A00DDD260A692B00890034 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		27A00DE2260A6EE800890034 /* MoyaProvider+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Request.swift"; sourceTree = "<group>"; };
+		27A00DE7260A718A00890034 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
 		27A9E3A02609285100E5D8D2 /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3A32609285100E5D8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +107,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27A00DB5260A61FB00890034 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DB6260A622A00890034 /* Models */,
+				27A00DD8260A66E400890034 /* APISpec.swift */,
+				27A00DDD260A692B00890034 /* NetworkService.swift */,
+				27A00DE7260A718A00890034 /* Networkable.swift */,
+				27A00DE2260A6EE800890034 /* MoyaProvider+Request.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		27A00DB6260A622A00890034 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DB7260A63AB00890034 /* PostAPIModel.swift */,
+				27A00DBF260A63D900890034 /* UserAPIModel.swift */,
+				27A00DC4260A63E900890034 /* CommentAPIModel.swift */,
+				27A00DC9260A63F800890034 /* AddressAPIModel.swift */,
+				27A00DCE260A640900890034 /* CompanyAPIModel.swift */,
+				27A00DD3260A641800890034 /* GeoAPIModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		27A9E3972609285100E5D8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +159,7 @@
 			children = (
 				27A9E3E02609329500E5D8D2 /* App */,
 				27A9E400260937ED00E5D8D2 /* Core */,
+				27A00DB5260A61FB00890034 /* API */,
 				27A9E3E12609329D00E5D8D2 /* Features */,
 				27A9E3AC2609285400E5D8D2 /* Assets.xcassets */,
 				27A9E3AE2609285400E5D8D2 /* LaunchScreen.storyboard */,
@@ -399,12 +445,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A00DB8260A63AB00890034 /* PostAPIModel.swift in Sources */,
 				27A9E3DC260931E600E5D8D2 /* AppModule.swift in Sources */,
+				27A00DD4260A641800890034 /* GeoAPIModel.swift in Sources */,
 				27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */,
 				27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */,
 				27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */,
+				27A00DDE260A692B00890034 /* NetworkService.swift in Sources */,
+				27A00DE3260A6EE800890034 /* MoyaProvider+Request.swift in Sources */,
+				27A00DCA260A63F800890034 /* AddressAPIModel.swift in Sources */,
 				27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */,
+				27A00DE8260A718A00890034 /* Networkable.swift in Sources */,
+				27A00DC5260A63E900890034 /* CommentAPIModel.swift in Sources */,
+				27A00DCF260A640900890034 /* CompanyAPIModel.swift in Sources */,
+				27A00DD9260A66E400890034 /* APISpec.swift in Sources */,
 				27A9E403260938C400E5D8D2 /* Factory.swift in Sources */,
+				27A00DC0260A63D900890034 /* UserAPIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
