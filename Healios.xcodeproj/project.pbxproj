@@ -17,6 +17,25 @@
 		27A00DDE260A692B00890034 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DDD260A692B00890034 /* NetworkService.swift */; };
 		27A00DE3260A6EE800890034 /* MoyaProvider+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DE2260A6EE800890034 /* MoyaProvider+Request.swift */; };
 		27A00DE8260A718A00890034 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DE7260A718A00890034 /* Networkable.swift */; };
+		27A00DF6260A89FD00890034 /* Healios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DF4260A89FD00890034 /* Healios.xcdatamodeld */; };
+		27A00DFB260A8E0D00890034 /* AddressDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DFA260A8E0D00890034 /* AddressDBModel.swift */; };
+		27A00E00260A8E4E00890034 /* CoreDataManagedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00DFF260A8E4E00890034 /* CoreDataManagedType.swift */; };
+		27A00E05260A8E8B00890034 /* FetchedResultsControllerEntityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E04260A8E8B00890034 /* FetchedResultsControllerEntityObserver.swift */; };
+		27A00E0A260A8F1200890034 /* NSManagedObjectContext+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E09260A8F1200890034 /* NSManagedObjectContext+Rx.swift */; };
+		27A00E0F260A8F5D00890034 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E0E260A8F5D00890034 /* NSManagedObjectContext+Extensions.swift */; };
+		27A00E14260A8FC000890034 /* CommentDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E13260A8FC000890034 /* CommentDBModel.swift */; };
+		27A00E19260A913200890034 /* CompanyDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E18260A913200890034 /* CompanyDBModel.swift */; };
+		27A00E1E260A917200890034 /* GeoDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E1D260A917200890034 /* GeoDBModel.swift */; };
+		27A00E23260A919F00890034 /* PostDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E22260A919F00890034 /* PostDBModel.swift */; };
+		27A00E28260A91D500890034 /* UserDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E27260A91D500890034 /* UserDBModel.swift */; };
+		27A00E2D260A936A00890034 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E2C260A936A00890034 /* CoreDataStack.swift */; };
+		27A00E32260A94CF00890034 /* CoreDataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E31260A94CF00890034 /* CoreDataPersistenceService.swift */; };
+		27A00E38260B301A00890034 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E37260B301A00890034 /* AddressModel.swift */; };
+		27A00E3D260B302900890034 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E3C260B302900890034 /* CommentModel.swift */; };
+		27A00E42260B303D00890034 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E41260B303D00890034 /* CompanyModel.swift */; };
+		27A00E47260B304D00890034 /* GeoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E46260B304D00890034 /* GeoModel.swift */; };
+		27A00E4C260B306400890034 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E4B260B306400890034 /* PostModel.swift */; };
+		27A00E51260B307700890034 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E50260B307700890034 /* UserModel.swift */; };
 		27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A32609285100E5D8D2 /* AppDelegate.swift */; };
 		27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */; };
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
@@ -59,6 +78,25 @@
 		27A00DDD260A692B00890034 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		27A00DE2260A6EE800890034 /* MoyaProvider+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Request.swift"; sourceTree = "<group>"; };
 		27A00DE7260A718A00890034 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		27A00DF5260A89FD00890034 /* Healios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Healios.xcdatamodel; sourceTree = "<group>"; };
+		27A00DFA260A8E0D00890034 /* AddressDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDBModel.swift; sourceTree = "<group>"; };
+		27A00DFF260A8E4E00890034 /* CoreDataManagedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagedType.swift; sourceTree = "<group>"; };
+		27A00E04260A8E8B00890034 /* FetchedResultsControllerEntityObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsControllerEntityObserver.swift; sourceTree = "<group>"; };
+		27A00E09260A8F1200890034 /* NSManagedObjectContext+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Rx.swift"; sourceTree = "<group>"; };
+		27A00E0E260A8F5D00890034 /* NSManagedObjectContext+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extensions.swift"; sourceTree = "<group>"; };
+		27A00E13260A8FC000890034 /* CommentDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDBModel.swift; sourceTree = "<group>"; };
+		27A00E18260A913200890034 /* CompanyDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDBModel.swift; sourceTree = "<group>"; };
+		27A00E1D260A917200890034 /* GeoDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDBModel.swift; sourceTree = "<group>"; };
+		27A00E22260A919F00890034 /* PostDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDBModel.swift; sourceTree = "<group>"; };
+		27A00E27260A91D500890034 /* UserDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDBModel.swift; sourceTree = "<group>"; };
+		27A00E2C260A936A00890034 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		27A00E31260A94CF00890034 /* CoreDataPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersistenceService.swift; sourceTree = "<group>"; };
+		27A00E37260B301A00890034 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		27A00E3C260B302900890034 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		27A00E41260B303D00890034 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		27A00E46260B304D00890034 /* GeoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoModel.swift; sourceTree = "<group>"; };
+		27A00E4B260B306400890034 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		27A00E50260B307700890034 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		27A9E3A02609285100E5D8D2 /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3A32609285100E5D8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +170,72 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		27A00DEF260A879F00890034 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DF0260A899F00890034 /* CoreData */,
+				27A00E36260B2D1A00890034 /* Models */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		27A00DF0260A899F00890034 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DF2260A89B100890034 /* Models */,
+				27A00DF1260A89A900890034 /* Setup */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		27A00DF1260A89A900890034 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DFF260A8E4E00890034 /* CoreDataManagedType.swift */,
+				27A00E04260A8E8B00890034 /* FetchedResultsControllerEntityObserver.swift */,
+				27A00E09260A8F1200890034 /* NSManagedObjectContext+Rx.swift */,
+				27A00E0E260A8F5D00890034 /* NSManagedObjectContext+Extensions.swift */,
+				27A00E2C260A936A00890034 /* CoreDataStack.swift */,
+				27A00E31260A94CF00890034 /* CoreDataPersistenceService.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		27A00DF2260A89B100890034 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DF3260A89E500890034 /* Generated */,
+				27A00DF4260A89FD00890034 /* Healios.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27A00DF3260A89E500890034 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				27A00DFA260A8E0D00890034 /* AddressDBModel.swift */,
+				27A00E13260A8FC000890034 /* CommentDBModel.swift */,
+				27A00E18260A913200890034 /* CompanyDBModel.swift */,
+				27A00E1D260A917200890034 /* GeoDBModel.swift */,
+				27A00E22260A919F00890034 /* PostDBModel.swift */,
+				27A00E27260A91D500890034 /* UserDBModel.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		27A00E36260B2D1A00890034 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27A00E37260B301A00890034 /* AddressModel.swift */,
+				27A00E3C260B302900890034 /* CommentModel.swift */,
+				27A00E41260B303D00890034 /* CompanyModel.swift */,
+				27A00E46260B304D00890034 /* GeoModel.swift */,
+				27A00E4B260B306400890034 /* PostModel.swift */,
+				27A00E50260B307700890034 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		27A9E3972609285100E5D8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +263,7 @@
 			children = (
 				27A9E3E02609329500E5D8D2 /* App */,
 				27A9E400260937ED00E5D8D2 /* Core */,
+				27A00DEF260A879F00890034 /* Persistence */,
 				27A00DB5260A61FB00890034 /* API */,
 				27A9E3E12609329D00E5D8D2 /* Features */,
 				27A9E3AC2609285400E5D8D2 /* Assets.xcassets */,
@@ -446,21 +551,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A00DB8260A63AB00890034 /* PostAPIModel.swift in Sources */,
+				27A00DF6260A89FD00890034 /* Healios.xcdatamodeld in Sources */,
+				27A00DFB260A8E0D00890034 /* AddressDBModel.swift in Sources */,
+				27A00E28260A91D500890034 /* UserDBModel.swift in Sources */,
 				27A9E3DC260931E600E5D8D2 /* AppModule.swift in Sources */,
 				27A00DD4260A641800890034 /* GeoAPIModel.swift in Sources */,
+				27A00E19260A913200890034 /* CompanyDBModel.swift in Sources */,
+				27A00E2D260A936A00890034 /* CoreDataStack.swift in Sources */,
+				27A00E51260B307700890034 /* UserModel.swift in Sources */,
+				27A00E0A260A8F1200890034 /* NSManagedObjectContext+Rx.swift in Sources */,
 				27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */,
 				27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */,
 				27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */,
 				27A00DDE260A692B00890034 /* NetworkService.swift in Sources */,
+				27A00E32260A94CF00890034 /* CoreDataPersistenceService.swift in Sources */,
+				27A00E47260B304D00890034 /* GeoModel.swift in Sources */,
+				27A00E38260B301A00890034 /* AddressModel.swift in Sources */,
 				27A00DE3260A6EE800890034 /* MoyaProvider+Request.swift in Sources */,
 				27A00DCA260A63F800890034 /* AddressAPIModel.swift in Sources */,
 				27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */,
 				27A00DE8260A718A00890034 /* Networkable.swift in Sources */,
 				27A00DC5260A63E900890034 /* CommentAPIModel.swift in Sources */,
+				27A00E4C260B306400890034 /* PostModel.swift in Sources */,
+				27A00E3D260B302900890034 /* CommentModel.swift in Sources */,
+				27A00E42260B303D00890034 /* CompanyModel.swift in Sources */,
+				27A00E14260A8FC000890034 /* CommentDBModel.swift in Sources */,
 				27A00DCF260A640900890034 /* CompanyAPIModel.swift in Sources */,
 				27A00DD9260A66E400890034 /* APISpec.swift in Sources */,
 				27A9E403260938C400E5D8D2 /* Factory.swift in Sources */,
+				27A00E05260A8E8B00890034 /* FetchedResultsControllerEntityObserver.swift in Sources */,
+				27A00E23260A919F00890034 /* PostDBModel.swift in Sources */,
+				27A00E0F260A8F5D00890034 /* NSManagedObjectContext+Extensions.swift in Sources */,
+				27A00E00260A8E4E00890034 /* CoreDataManagedType.swift in Sources */,
 				27A00DC0260A63D900890034 /* UserAPIModel.swift in Sources */,
+				27A00E1E260A917200890034 /* GeoDBModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -781,6 +905,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27A00DF4260A89FD00890034 /* Healios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27A00DF5260A89FD00890034 /* Healios.xcdatamodel */,
+			);
+			currentVersion = 27A00DF5260A89FD00890034 /* Healios.xcdatamodel */;
+			path = Healios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 27A9E3982609285100E5D8D2 /* Project object */;
 }
