@@ -35,7 +35,7 @@ extension CoreDataManagedType where Self: NSManagedObject {
         NSPredicate(format: "id == %@", id)
     }
 
-    static func fetch(in context: NSManagedObjectContext, matching predicate: NSPredicate? = nil, shouldRefetch: Bool = false) -> Observable<[Self]> {
+    static func fetch(in context: NSManagedObjectContext, matching predicate: NSPredicate? = nil) -> Observable<[Self]> {
         let request = sortedFetchRequest
         request.predicate = predicate
         request.returnsObjectsAsFaults = false
