@@ -8,4 +8,10 @@ target 'Healios' do
     pod 'RxCocoa', '6.1.0'
     pod 'RxDataSources', '~> 5.0'
     pod 'SnapKit', '~> 5.0.0'
+
+    target 'HealiosTests' do
+      pod 'RxBlocking', '6.1.0'
+      inherit! :complete
+    end
+    
 end

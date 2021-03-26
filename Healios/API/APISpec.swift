@@ -30,7 +30,20 @@ enum APISpec: String, TargetType {
     }
 
     var headers: [String : String]? {
-        return [:]
+        [:]
     }
+
+    var sampleData: Data {
+        Data()
+    }
+
+//    var sampleData: Data {
+//        let bundle = Bundle(for: NetworkServiceMock.self)
+//        guard let filepath = bundle.path(forResource: path, ofType: "json") else {
+//            return Data()
+//        }
+//        let url = URL(fileURLWithPath: filepath)
+//        return (try? Data(contentsOf: url)) ?? Data()
+//    }
 
 }

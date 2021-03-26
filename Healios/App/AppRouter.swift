@@ -8,7 +8,7 @@
 import UIKit
 import Dip
 
-class AppRouter {
+class AppRouter: AppRouterProtocol {
 
     private var navigationController: UINavigationController?
 

@@ -15,7 +15,7 @@ class AppModule {
         self.container = DependencyContainer()
     }
 
-    var applicationRouter: AppRouter {
+    var applicationRouter: AppRouterProtocol {
         return try! container.resolve()
     }
 
@@ -29,7 +29,11 @@ class AppModule {
     }
 
     private func registerRouter() {
-        container.register(.singleton, factory: AppRouter.init)
+        container.register(
+            .singleton,
+            type: AppRouterProtocol.self,
+            factory: AppRouter.init
+        )
     }
 
     private func registerPostsViewController() {

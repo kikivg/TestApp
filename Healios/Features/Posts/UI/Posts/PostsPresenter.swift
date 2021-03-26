@@ -10,10 +10,10 @@ import RxSwift
 class PostsPresenter {
 
     private let postsRepository: PostsRepositoryProtocol
-    private let appRouter: AppRouter
+    private let appRouter: AppRouterProtocol
     private var postsDict = [Int: PostModel]()
 
-    init(postsRepository: PostsRepositoryProtocol, appRouter: AppRouter) {
+    init(postsRepository: PostsRepositoryProtocol, appRouter: AppRouterProtocol) {
         self.postsRepository = postsRepository
         self.appRouter = appRouter
     }

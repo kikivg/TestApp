@@ -8,7 +8,7 @@
 import RxSwift
 import Moya
 
-extension Reactive where Base : MoyaProviderType, Base.Target == APISpec {
+extension Reactive where Base: MoyaProviderType {
 
     func request<T: Codable>(with apiTarget: Base.Target) -> Observable<T> {
         return request(apiTarget)

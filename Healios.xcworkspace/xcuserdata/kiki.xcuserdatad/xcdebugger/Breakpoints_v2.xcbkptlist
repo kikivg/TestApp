@@ -3,4 +3,86 @@
    uuid = "57BF30BC-CF5E-4647-88DA-9A9B3E5380D9"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49CDBB98-2AAC-45DC-8972-2488FB840EA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Healios/API/MoyaProvider+Request.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "request(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E6B886B-72A1-4E83-A5EE-89D6EC3F249E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Healios/API/MoyaProvider+Request.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "request(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC1797F2-4BFF-47FF-A27C-A788A964FCD4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Healios/App/AppModule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "registerPostsViewController()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AC1797F2-4BFF-47FF-A27C-A788A964FCD4 - fc45d92ec79421ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Healios.AppModule.(registerPostsViewController in _8D7D6F89D069C5C76DE4EEB12710E2A3)() -&gt; ()"
+                  moduleName = "Healios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiki/testRepository/healios/Healios/Healios/App/AppModule.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "AC1797F2-4BFF-47FF-A27C-A788A964FCD4 - 76643c1e87ac20ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (()) throws -&gt; Healios.PostsViewController in Healios.AppModule.(registerPostsViewController in _8D7D6F89D069C5C76DE4EEB12710E2A3)() -&gt; ()"
+                  moduleName = "Healios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiki/testRepository/healios/Healios/Healios/App/AppModule.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
