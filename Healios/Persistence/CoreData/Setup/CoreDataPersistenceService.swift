@@ -30,9 +30,9 @@ class CoreDataPersistenceService: PersistenceProtocol {
                     dict[user.id] = UserDBModel.insert(into: context, from: user)
                 })
                 let postsById = posts.reduce(into: [:], { dict, post in
-                    dict[post.id] = PostDBModel.insert(into: context, from: post, and: usersById)
+                    dict[post.id] = PostDBModel.insert(into: context, from: post, and: usersById[post.userId])
                 })
-                comments.forEach { CommentDBModel.insert(into: context, from: $0, and: postsById) }
+                comments.forEach { CommentDBModel.insert(into: context, from: $0, and: postsById[$0.postId]) }
             }
             return Disposables.create()
         }

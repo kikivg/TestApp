@@ -19,7 +19,7 @@ class CommentDBModel: NSManagedObject {
     static func insert(
         into context: NSManagedObjectContext,
         from commentAPI: CommentAPIModel,
-        and posts: [Int: PostDBModel]
+        and post: PostDBModel?
     ) -> CommentDBModel {
         let comment: CommentDBModel = context.insertObject()
         comment.id = commentAPI.id
@@ -27,7 +27,7 @@ class CommentDBModel: NSManagedObject {
         comment.email = commentAPI.email
         comment.body = commentAPI.body
 
-        if let post = posts[commentAPI.postId] {
+        if let post = post {
             comment.post = post
         }
 

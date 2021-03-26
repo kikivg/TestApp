@@ -19,14 +19,14 @@ class PostDBModel: NSManagedObject {
     static func insert(
         into context: NSManagedObjectContext,
         from postAPI: PostAPIModel,
-        and users: [Int: UserDBModel]
+        and user: UserDBModel?
     ) -> PostDBModel {
         let post: PostDBModel = context.insertObject()
         post.id = postAPI.id
         post.title = postAPI.title
         post.body = postAPI.body
 
-        if let user = users[postAPI.userId] {
+        if let user = user {
             post.user = user
         }
 
