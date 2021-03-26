@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H114" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="AddressDBModel" representedClassName=".AddressDB" syncable="YES">
+    <entity name="AddressDBModel" representedClassName=".AddressDBModel" syncable="YES">
         <attribute name="city" attributeType="String"/>
         <attribute name="street" attributeType="String"/>
         <attribute name="suite" attributeType="String"/>
@@ -8,32 +8,32 @@
         <relationship name="geo" maxCount="1" deletionRule="Nullify" destinationEntity="GeoDBModel" inverseName="address" inverseEntity="GeoDBModel"/>
         <relationship name="user" maxCount="1" deletionRule="Nullify" destinationEntity="UserDBModel" inverseName="address" inverseEntity="UserDBModel"/>
     </entity>
-    <entity name="CommentDBModel" representedClassName=".CommentDB" syncable="YES">
+    <entity name="CommentDBModel" representedClassName=".CommentDBModel" syncable="YES">
         <attribute name="body" attributeType="String"/>
         <attribute name="email" attributeType="String"/>
         <attribute name="id" attributeType="Integer 64" usesScalarValueType="YES"/>
         <attribute name="name" attributeType="String"/>
         <relationship name="post" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PostDBModel" inverseName="comments" inverseEntity="PostDBModel"/>
     </entity>
-    <entity name="CompanyDBModel" representedClassName=".CompanyDB" syncable="YES">
+    <entity name="CompanyDBModel" representedClassName=".CompanyDBModel" syncable="YES">
         <attribute name="bs" attributeType="String"/>
         <attribute name="catchPhrase" attributeType="String"/>
         <attribute name="name" attributeType="String"/>
         <relationship name="user" maxCount="1" deletionRule="Nullify" destinationEntity="UserDBModel" inverseName="company" inverseEntity="UserDBModel"/>
     </entity>
-    <entity name="GeoDBModel" representedClassName=".GeoDB" syncable="YES">
+    <entity name="GeoDBModel" representedClassName=".GeoDBModel" syncable="YES">
         <attribute name="latitude" attributeType="String"/>
         <attribute name="longitude" attributeType="String"/>
         <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AddressDBModel" inverseName="geo" inverseEntity="AddressDBModel"/>
     </entity>
-    <entity name="PostDBModel" representedClassName=".PostDB" syncable="YES">
+    <entity name="PostDBModel" representedClassName=".PostDBModel" syncable="YES">
         <attribute name="body" attributeType="String"/>
         <attribute name="id" attributeType="Integer 64" usesScalarValueType="YES"/>
         <attribute name="title" attributeType="String"/>
         <relationship name="comments" toMany="YES" deletionRule="Cascade" destinationEntity="CommentDBModel" inverseName="post" inverseEntity="CommentDBModel"/>
         <relationship name="user" maxCount="1" deletionRule="Nullify" destinationEntity="UserDBModel" inverseName="posts" inverseEntity="UserDBModel"/>
     </entity>
-    <entity name="UserDBModel" representedClassName=".UserDB" syncable="YES">
+    <entity name="UserDBModel" representedClassName=".UserDBModel" syncable="YES">
         <attribute name="email" attributeType="String"/>
         <attribute name="id" attributeType="Integer 64" usesScalarValueType="YES"/>
         <attribute name="name" attributeType="String"/>
@@ -46,10 +46,10 @@
     </entity>
     <elements>
         <element name="AddressDBModel" positionX="-554.76953125" positionY="-98.8828125" width="128" height="133"/>
-        <element name="CompanyDBModel" positionX="-585.26953125" positionY="229.92578125" width="128" height="103"/>
         <element name="CommentDBModel" positionX="37.31640625" positionY="305.76171875" width="128" height="118"/>
+        <element name="CompanyDBModel" positionX="-585.26953125" positionY="229.92578125" width="128" height="103"/>
+        <element name="GeoDBModel" positionX="-549.6875" positionY="-334.73046875" width="128" height="88"/>
         <element name="PostDBModel" positionX="49.01171875" positionY="104.0390625" width="128" height="118"/>
         <element name="UserDBModel" positionX="-200.71484375" positionY="58.8046875" width="128" height="178"/>
-        <element name="GeoDBModel" positionX="-549.6875" positionY="-334.73046875" width="128" height="88"/>
     </elements>
 </model>

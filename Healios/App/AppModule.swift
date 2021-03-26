@@ -21,6 +21,7 @@ class AppModule {
 
     func registerDependencies() {
         registerPersistence()
+        registerNetworkService()
         registerRepository()
         registerRouter()
         registerPostsViewController()
@@ -40,7 +41,9 @@ class AppModule {
     }
 
     private func registerPersistence() {
-        container.register(.unique, factory: CoreDataStack.init)
+        container.register(.unique) { _ -> CoreDataStack in
+            return CoreDataStack()
+        }
 
         container.register(
             .singleton,
@@ -54,6 +57,14 @@ class AppModule {
             .singleton,
             type: PostsRepositoryProtocol.self,
             factory: PostsRepository.init
+        )
+    }
+
+    private func registerNetworkService() {
+        container.register(
+            .singleton,
+            type: Networkable.self,
+            factory: NetworkService.init
         )
     }
 

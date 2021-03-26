@@ -40,6 +40,12 @@
 		27A00E7D260CB64200890034 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E7C260CB64200890034 /* PostsRepository.swift */; };
 		27A00E85260CB66000890034 /* PostsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E84260CB66000890034 /* PostsRepositoryProtocol.swift */; };
 		27A00E8A260CBA6B00890034 /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E89260CBA6B00890034 /* PostsPresenter.swift */; };
+		27A00E92260DE19600890034 /* PostsViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E91260DE19600890034 /* PostsViewController+Design.swift */; };
+		27A00E9B260DE8A400890034 /* RxDataSources+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E9A260DE8A400890034 /* RxDataSources+Section.swift */; };
+		27A00EA4260DED2B00890034 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EA3260DED2B00890034 /* PostListViewModel.swift */; };
+		27A00EAD260DF1B000890034 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EAC260DF1B000890034 /* PostCell.swift */; };
+		27A00EB6260DF7A200890034 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EB5260DF7A200890034 /* UITableViewCell+Extensions.swift */; };
+		27A00EC5260E02DA00890034 /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EC4260E02D900890034 /* Sequence+Extensions.swift */; };
 		27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A32609285100E5D8D2 /* AppDelegate.swift */; };
 		27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */; };
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
@@ -48,7 +54,6 @@
 		27A9E3C62609285400E5D8D2 /* HealiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3C52609285400E5D8D2 /* HealiosUITests.swift */; };
 		27A9E3DC260931E600E5D8D2 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3DB260931E600E5D8D2 /* AppModule.swift */; };
 		27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */; };
-		27A9E3E9260933EC00E5D8D2 /* PostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */; };
 		27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3FB260935F900E5D8D2 /* AppRouter.swift */; };
 		27A9E403260938C400E5D8D2 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E402260938C400E5D8D2 /* Factory.swift */; };
 		976E7A776581E734FCE5FEB1 /* Pods_Healios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F497C3D18CFDF881AA6FE64B /* Pods_Healios.framework */; };
@@ -105,6 +110,12 @@
 		27A00E7C260CB64200890034 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
 		27A00E84260CB66000890034 /* PostsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryProtocol.swift; sourceTree = "<group>"; };
 		27A00E89260CBA6B00890034 /* PostsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsPresenter.swift; sourceTree = "<group>"; };
+		27A00E91260DE19600890034 /* PostsViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostsViewController+Design.swift"; sourceTree = "<group>"; };
+		27A00E9A260DE8A400890034 /* RxDataSources+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxDataSources+Section.swift"; sourceTree = "<group>"; };
+		27A00EA3260DED2B00890034 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		27A00EAC260DF1B000890034 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		27A00EB5260DF7A200890034 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		27A00EC4260E02D900890034 /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
 		27A9E3A02609285100E5D8D2 /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3A32609285100E5D8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,7 +130,6 @@
 		27A9E3C72609285400E5D8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A9E3DB260931E600E5D8D2 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
 		27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
-		27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsViewController.xib; sourceTree = "<group>"; };
 		27A9E3FB260935F900E5D8D2 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		27A9E402260938C400E5D8D2 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		64E912A4C0836D514AAA2010 /* Pods-Healios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.release.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.release.xcconfig"; sourceTree = "<group>"; };
@@ -262,6 +272,46 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		27A00E99260DE88900890034 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				27A00E9A260DE8A400890034 /* RxDataSources+Section.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		27A00EA2260DE93F00890034 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				27A00EA3260DED2B00890034 /* PostListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		27A00EAB260DF19000890034 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27A00EAC260DF1B000890034 /* PostCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		27A00EB4260DF78E00890034 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				27A00EB5260DF7A200890034 /* UITableViewCell+Extensions.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		27A00EC3260E02C600890034 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				27A00EC4260E02D900890034 /* Sequence+Extensions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		27A9E3972609285100E5D8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -357,9 +407,11 @@
 		27A9E3E42609333F00E5D8D2 /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */,
-				27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */,
+				27A00EAB260DF19000890034 /* Cells */,
+				27A00EA2260DE93F00890034 /* ViewModels */,
 				27A00E89260CBA6B00890034 /* PostsPresenter.swift */,
+				27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */,
+				27A00E91260DE19600890034 /* PostsViewController+Design.swift */,
 			);
 			path = Posts;
 			sourceTree = "<group>";
@@ -375,6 +427,9 @@
 			isa = PBXGroup;
 			children = (
 				27A9E4012609380100E5D8D2 /* DependencyInjection */,
+				27A00E99260DE88900890034 /* Rx */,
+				27A00EC3260E02C600890034 /* Foundation */,
+				27A00EB4260DF78E00890034 /* UIExtensions */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -509,7 +564,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A9E3E9260933EC00E5D8D2 /* PostsViewController.xib in Resources */,
 				27A9E3B02609285400E5D8D2 /* LaunchScreen.storyboard in Resources */,
 				27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */,
 			);
@@ -578,6 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A00E92260DE19600890034 /* PostsViewController+Design.swift in Sources */,
 				27A00DB8260A63AB00890034 /* PostAPIModel.swift in Sources */,
 				27A00DF6260A89FD00890034 /* Healios.xcdatamodeld in Sources */,
 				27A00DFB260A8E0D00890034 /* AddressDBModel.swift in Sources */,
@@ -591,9 +646,11 @@
 				27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */,
 				27A00E85260CB66000890034 /* PostsRepositoryProtocol.swift in Sources */,
 				27A00E76260BC87A00890034 /* PersistenceProtocol.swift in Sources */,
+				27A00EA4260DED2B00890034 /* PostListViewModel.swift in Sources */,
 				27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */,
 				27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */,
 				27A00DDE260A692B00890034 /* NetworkService.swift in Sources */,
+				27A00EB6260DF7A200890034 /* UITableViewCell+Extensions.swift in Sources */,
 				27A00E32260A94CF00890034 /* CoreDataPersistenceService.swift in Sources */,
 				27A00E47260B304D00890034 /* GeoModel.swift in Sources */,
 				27A00E38260B301A00890034 /* AddressModel.swift in Sources */,
@@ -602,11 +659,14 @@
 				27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */,
 				27A00DE8260A718A00890034 /* Networkable.swift in Sources */,
 				27A00E7D260CB64200890034 /* PostsRepository.swift in Sources */,
+				27A00EC5260E02DA00890034 /* Sequence+Extensions.swift in Sources */,
 				27A00DC5260A63E900890034 /* CommentAPIModel.swift in Sources */,
 				27A00E4C260B306400890034 /* PostModel.swift in Sources */,
 				27A00E3D260B302900890034 /* CommentModel.swift in Sources */,
+				27A00EAD260DF1B000890034 /* PostCell.swift in Sources */,
 				27A00E42260B303D00890034 /* CompanyModel.swift in Sources */,
 				27A00E14260A8FC000890034 /* CommentDBModel.swift in Sources */,
+				27A00E9B260DE8A400890034 /* RxDataSources+Section.swift in Sources */,
 				27A00DCF260A640900890034 /* CompanyAPIModel.swift in Sources */,
 				27A00DD9260A66E400890034 /* APISpec.swift in Sources */,
 				27A00E8A260CBA6B00890034 /* PostsPresenter.swift in Sources */,

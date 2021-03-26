@@ -11,22 +11,39 @@ class PostsPresenter {
 
     private let postsRepository: PostsRepositoryProtocol
     private let appRouter: AppRouter
+    private var postsDict = [Int: PostModel]()
 
     init(postsRepository: PostsRepositoryProtocol, appRouter: AppRouter) {
         self.postsRepository = postsRepository
         self.appRouter = appRouter
     }
 
-    var posts: Observable<[PostModel]> {
+    private lazy var posts: Observable<[PostModel]> = {
         postsRepository.posts
+            .share(replay: 1)
+    }()
+
+    var postsExist: Observable<Bool> {
+        posts.map { !$0.isEmpty }
+    }
+
+    var postViewModels: Observable<[PostListViewModel]> {
+        posts.map { $0.map { PostListViewModel(from: $0) } }
     }
 
     func refreshPosts() -> Completable {
         postsRepository.refreshPosts()
     }
 
-    func postSelected(post: PostModel) {
+    func postSelected(postId: Int) {
+        guard let post = postsDict[postId] else {
+            return
+        }
         appRouter.pushPostDetailsViewController(post: post)
+    }
+
+    private func updatePosts(posts: [PostModel]) {
+        postsDict = posts.associateBy { $0.id }
     }
 
 }
