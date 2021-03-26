@@ -66,7 +66,6 @@
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
 		27A9E3B02609285400E5D8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AE2609285400E5D8D2 /* LaunchScreen.storyboard */; };
 		27A9E3BB2609285400E5D8D2 /* PostsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3BA2609285400E5D8D2 /* PostsRepositoryTests.swift */; };
-		27A9E3C62609285400E5D8D2 /* HealiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3C52609285400E5D8D2 /* HealiosUITests.swift */; };
 		27A9E3DC260931E600E5D8D2 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3DB260931E600E5D8D2 /* AppModule.swift */; };
 		27A9E3E8260933EC00E5D8D2 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */; };
 		27A9E3FC260935F900E5D8D2 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3FB260935F900E5D8D2 /* AppRouter.swift */; };
@@ -77,13 +76,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		27A9E3B72609285400E5D8D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27A9E3982609285100E5D8D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27A9E39F2609285100E5D8D2;
-			remoteInfo = Healios;
-		};
-		27A9E3C22609285400E5D8D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 27A9E3982609285100E5D8D2 /* Project object */;
 			proxyType = 1;
@@ -156,9 +148,6 @@
 		27A9E3B62609285400E5D8D2 /* HealiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3BA2609285400E5D8D2 /* PostsRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryTests.swift; sourceTree = "<group>"; };
 		27A9E3BC2609285400E5D8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27A9E3C12609285400E5D8D2 /* HealiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A9E3C52609285400E5D8D2 /* HealiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealiosUITests.swift; sourceTree = "<group>"; };
-		27A9E3C72609285400E5D8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A9E3DB260931E600E5D8D2 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
 		27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		27A9E3FB260935F900E5D8D2 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -185,13 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C0FDD2FE5F73EBEA897EF06 /* Pods_Healios_HealiosTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27A9E3BE2609285400E5D8D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +352,6 @@
 			children = (
 				27A9E3A22609285100E5D8D2 /* Healios */,
 				27A9E3B92609285400E5D8D2 /* HealiosTests */,
-				27A9E3C42609285400E5D8D2 /* HealiosUITests */,
 				27A9E3A12609285100E5D8D2 /* Products */,
 				A03892CB8D2A9FF64EDC57DE /* Pods */,
 				D6D0DDF00D7BD2540D8D2A83 /* Frameworks */,
@@ -382,7 +363,6 @@
 			children = (
 				27A9E3A02609285100E5D8D2 /* Healios.app */,
 				27A9E3B62609285400E5D8D2 /* HealiosTests.xctest */,
-				27A9E3C12609285400E5D8D2 /* HealiosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -416,15 +396,6 @@
 				27A9E3BC2609285400E5D8D2 /* Info.plist */,
 			);
 			path = HealiosTests;
-			sourceTree = "<group>";
-		};
-		27A9E3C42609285400E5D8D2 /* HealiosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				27A9E3C52609285400E5D8D2 /* HealiosUITests.swift */,
-				27A9E3C72609285400E5D8D2 /* Info.plist */,
-			);
-			path = HealiosUITests;
 			sourceTree = "<group>";
 		};
 		27A9E3E02609329500E5D8D2 /* App */ = {
@@ -570,24 +541,6 @@
 			productReference = 27A9E3B62609285400E5D8D2 /* HealiosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		27A9E3C02609285400E5D8D2 /* HealiosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27A9E3D02609285400E5D8D2 /* Build configuration list for PBXNativeTarget "HealiosUITests" */;
-			buildPhases = (
-				27A9E3BD2609285400E5D8D2 /* Sources */,
-				27A9E3BE2609285400E5D8D2 /* Frameworks */,
-				27A9E3BF2609285400E5D8D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27A9E3C32609285400E5D8D2 /* PBXTargetDependency */,
-			);
-			name = HealiosUITests;
-			productName = HealiosUITests;
-			productReference = 27A9E3C12609285400E5D8D2 /* HealiosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -601,10 +554,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					27A9E3B52609285400E5D8D2 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 27A9E39F2609285100E5D8D2;
-					};
-					27A9E3C02609285400E5D8D2 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 27A9E39F2609285100E5D8D2;
 					};
@@ -625,7 +574,6 @@
 			targets = (
 				27A9E39F2609285100E5D8D2 /* Healios */,
 				27A9E3B52609285400E5D8D2 /* HealiosTests */,
-				27A9E3C02609285400E5D8D2 /* HealiosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -647,13 +595,6 @@
 				27A00F2F260E4CC800890034 /* users.json in Resources */,
 				27A00F2E260E4CC800890034 /* posts.json in Resources */,
 				27A00F30260E4CC800890034 /* comments.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27A9E3BF2609285400E5D8D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,14 +754,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27A9E3BD2609285400E5D8D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27A9E3C62609285400E5D8D2 /* HealiosUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -828,11 +761,6 @@
 			isa = PBXTargetDependency;
 			target = 27A9E39F2609285100E5D8D2 /* Healios */;
 			targetProxy = 27A9E3B72609285400E5D8D2 /* PBXContainerItemProxy */;
-		};
-		27A9E3C32609285400E5D8D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27A9E39F2609285100E5D8D2 /* Healios */;
-			targetProxy = 27A9E3C22609285400E5D8D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1046,44 +974,6 @@
 			};
 			name = Release;
 		};
-		27A9E3D12609285400E5D8D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HealiosUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kiki.HealiosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Healios;
-			};
-			name = Debug;
-		};
-		27A9E3D22609285400E5D8D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HealiosUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kiki.HealiosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Healios;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1110,15 +1000,6 @@
 			buildConfigurations = (
 				27A9E3CE2609285400E5D8D2 /* Debug */,
 				27A9E3CF2609285400E5D8D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27A9E3D02609285400E5D8D2 /* Build configuration list for PBXNativeTarget "HealiosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27A9E3D12609285400E5D8D2 /* Debug */,
-				27A9E3D22609285400E5D8D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
