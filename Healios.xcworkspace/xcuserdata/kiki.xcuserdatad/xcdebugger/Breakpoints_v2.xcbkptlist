@@ -36,53 +36,5 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AC1797F2-4BFF-47FF-A27C-A788A964FCD4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Healios/App/AppModule.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "registerPostsViewController()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AC1797F2-4BFF-47FF-A27C-A788A964FCD4 - fc45d92ec79421ac"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Healios.AppModule.(registerPostsViewController in _8D7D6F89D069C5C76DE4EEB12710E2A3)() -&gt; ()"
-                  moduleName = "Healios"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kiki/testRepository/healios/Healios/Healios/App/AppModule.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "400">
-               </Location>
-               <Location
-                  uuid = "AC1797F2-4BFF-47FF-A27C-A788A964FCD4 - 76643c1e87ac20ac"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (()) throws -&gt; Healios.PostsViewController in Healios.AppModule.(registerPostsViewController in _8D7D6F89D069C5C76DE4EEB12710E2A3)() -&gt; ()"
-                  moduleName = "Healios"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kiki/testRepository/healios/Healios/Healios/App/AppModule.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "41">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

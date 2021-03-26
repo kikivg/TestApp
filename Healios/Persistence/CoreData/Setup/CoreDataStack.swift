@@ -47,7 +47,7 @@ class CoreDataStack {
                 at: storeURL,
                 options: migrationOptions)
         } catch {
-            fatalError("Failed to add persistent store!")
+            fatalError("Failed to add a persistent store!")
         }
 
         setupContextNotificationObserving()

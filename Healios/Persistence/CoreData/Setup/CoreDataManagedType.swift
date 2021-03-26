@@ -31,36 +31,11 @@ extension CoreDataManagedType where Self: NSManagedObject {
         return request
     }
 
-    static func predicateId(for id: String) -> NSPredicate {
-        NSPredicate(format: "id == %@", id)
-    }
-
     static func fetch(in context: NSManagedObjectContext, matching predicate: NSPredicate? = nil) -> Observable<[Self]> {
         let request = sortedFetchRequest
         request.predicate = predicate
         request.returnsObjectsAsFaults = false
         return context.rx.entities(fetchRequest: request)
-    }
-
-    static func first(in context: NSManagedObjectContext, matching predicate: NSPredicate? = nil) -> Self? {
-        let request = sortedFetchRequest
-        request.predicate = predicate
-        request.returnsObjectsAsFaults = false
-        request.fetchLimit = 1
-        var results: [Self]?
-        context.performAndWait {
-            results = try? context.fetch(request)
-        }
-        return results?.first
-    }
-
-    static func deleteAll(from context: NSManagedObjectContext) {
-        let request = NSFetchRequest<Self>(entityName: entityName)
-        request.includesPropertyValues = false
-        let items = try! context.fetch(request)
-        for item in items {
-            context.delete(item)
-        }
     }
 
 }
