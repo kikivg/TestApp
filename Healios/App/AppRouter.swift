@@ -13,6 +13,7 @@ class AppRouter {
     private var navigationController: UINavigationController?
 
     private let postsFactory = Factory<PostsViewController>()
+    private let postDetailsFactory = Factory<PostDetailsViewController>()
 
     func configureMainInterface(in window: UIWindow?) {
         let postsViewController = postsFactory.create()
@@ -22,7 +23,8 @@ class AppRouter {
     }
 
     func pushPostDetailsViewController(post: PostModel) {
-        
+        let postDetailsViewControlelr = postDetailsFactory.create(withArguments: post)
+        navigationController?.pushViewController(postDetailsViewControlelr, animated: true)
     }
 
 }

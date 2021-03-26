@@ -45,4 +45,10 @@ class CommentDBModel: NSManagedObject {
 
 }
 
-extension CommentDBModel: CoreDataManagedType {}
+extension CommentDBModel: CoreDataManagedType {
+
+    static var defaultSortDescriptors: [NSSortDescriptor] {
+        return [NSSortDescriptor(key: #keyPath(id), ascending: true)]
+    }
+
+}

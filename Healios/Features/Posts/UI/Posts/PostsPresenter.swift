@@ -20,6 +20,9 @@ class PostsPresenter {
 
     private lazy var posts: Observable<[PostModel]> = {
         postsRepository.posts
+            .do(onNext: { [weak self] posts in
+                self?.updatePosts(posts: posts)
+            })
             .share(replay: 1)
     }()
 

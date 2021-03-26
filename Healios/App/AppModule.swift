@@ -25,6 +25,7 @@ class AppModule {
         registerRepository()
         registerRouter()
         registerPostsViewController()
+        registerPostDetailsViewController()
     }
 
     private func registerRouter() {
@@ -37,6 +38,17 @@ class AppModule {
         container.register(.unique) { [unowned container] _ -> PostsViewController in
             let presenter: PostsPresenter = try container.resolve()
             return PostsViewController(presenter: presenter)
+        }
+    }
+
+    private func registerPostDetailsViewController() {
+        container.register(.unique) { (post: PostModel) -> PostDetailsPresenter in
+            return PostDetailsPresenter(post: post)
+        }
+
+        container.register(.unique) { [unowned container] (post: PostModel) -> PostDetailsViewController in
+            let presenter: PostDetailsPresenter = try container.resolve(arguments: post)
+            return PostDetailsViewController(presenter: presenter)
         }
     }
 
