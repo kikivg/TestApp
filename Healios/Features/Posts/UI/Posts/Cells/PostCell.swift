@@ -69,11 +69,13 @@ extension PostCell {
         titleLabel.font = UIFont.boldSystemFont(ofSize: 14)
         titleLabel.numberOfLines = 0
         bodyLabel.font = UIFont.systemFont(ofSize: 11)
+        bodyLabel.lineBreakMode = .byTruncatingTail
         usernameLabel.font = UIFont.boldSystemFont(ofSize: 10)
         commentsCountLabel.font = UIFont.boldSystemFont(ofSize: 10)
 
         stackView.axis = .vertical
         stackView.alignment = .leading
+        stackView.spacing = 3
 
         bottomStackview.axis = .horizontal
         bottomStackview.alignment = .lastBaseline

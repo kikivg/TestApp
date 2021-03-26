@@ -13,16 +13,20 @@ class PostsViewController: UIViewController {
 
     typealias DataSource = RxTableViewSectionedReloadDataSource<Section<PostListViewModel>>
 
-    var presenter: PostsPresenter!
+    let presenter: PostsPresenter
 
     var tableView: UITableView!
 
     private var dataSource: DataSource!
     private let disposeBag = DisposeBag()
 
-    convenience init(presenter: PostsPresenter) {
-        self.init()
+    init(presenter: PostsPresenter) {
         self.presenter = presenter
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) is not supported")
     }
 
     override func viewDidLoad() {

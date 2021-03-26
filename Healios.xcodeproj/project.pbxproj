@@ -52,6 +52,7 @@
 		27A00EE1260E048A00890034 /* PostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EE0260E048A00890034 /* PostDetailsViewModel.swift */; };
 		27A00EE9260E04F000890034 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EE8260E04F000890034 /* UserViewModel.swift */; };
 		27A00EEE260E051200890034 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00EED260E051200890034 /* CommentViewModel.swift */; };
+		27A00F07260E3C3B00890034 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00F06260E3C3B00890034 /* CommentCell.swift */; };
 		27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A32609285100E5D8D2 /* AppDelegate.swift */; };
 		27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */; };
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
@@ -128,6 +129,7 @@
 		27A00EE0260E048A00890034 /* PostDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewModel.swift; sourceTree = "<group>"; };
 		27A00EE8260E04F000890034 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		27A00EED260E051200890034 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		27A00F06260E3C3B00890034 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		27A9E3A02609285100E5D8D2 /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3A32609285100E5D8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 		27A00EDE260E045400890034 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				27A00F06260E3C3B00890034 /* CommentCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -705,6 +708,7 @@
 				27A00E3D260B302900890034 /* CommentModel.swift in Sources */,
 				27A00EAD260DF1B000890034 /* PostCell.swift in Sources */,
 				27A00E42260B303D00890034 /* CompanyModel.swift in Sources */,
+				27A00F07260E3C3B00890034 /* CommentCell.swift in Sources */,
 				27A00E14260A8FC000890034 /* CommentDBModel.swift in Sources */,
 				27A00E9B260DE8A400890034 /* RxDataSources+Section.swift in Sources */,
 				27A00DCF260A640900890034 /* CompanyAPIModel.swift in Sources */,
