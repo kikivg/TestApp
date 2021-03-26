@@ -31,8 +31,11 @@ class AppModule {
     }
 
     private func registerPostsViewController() {
+        container.register(.unique, factory: PostsPresenter.init)
+
         container.register(.unique) { [unowned container] _ -> PostsViewController in
-            return PostsViewController()
+            let presenter: PostsPresenter = try container.resolve()
+            return PostsViewController(presenter: presenter)
         }
     }
 

@@ -39,6 +39,7 @@
 		27A00E76260BC87A00890034 /* PersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E75260BC87A00890034 /* PersistenceProtocol.swift */; };
 		27A00E7D260CB64200890034 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E7C260CB64200890034 /* PostsRepository.swift */; };
 		27A00E85260CB66000890034 /* PostsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E84260CB66000890034 /* PostsRepositoryProtocol.swift */; };
+		27A00E8A260CBA6B00890034 /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A00E89260CBA6B00890034 /* PostsPresenter.swift */; };
 		27A9E3A42609285100E5D8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A32609285100E5D8D2 /* AppDelegate.swift */; };
 		27A9E3A62609285100E5D8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */; };
 		27A9E3AD2609285400E5D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A9E3AC2609285400E5D8D2 /* Assets.xcassets */; };
@@ -103,6 +104,7 @@
 		27A00E75260BC87A00890034 /* PersistenceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceProtocol.swift; sourceTree = "<group>"; };
 		27A00E7C260CB64200890034 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
 		27A00E84260CB66000890034 /* PostsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		27A00E89260CBA6B00890034 /* PostsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsPresenter.swift; sourceTree = "<group>"; };
 		27A9E3A02609285100E5D8D2 /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A9E3A32609285100E5D8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A9E3A52609285100E5D8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -357,6 +359,7 @@
 			children = (
 				27A9E3E6260933EC00E5D8D2 /* PostsViewController.swift */,
 				27A9E3E7260933EC00E5D8D2 /* PostsViewController.xib */,
+				27A00E89260CBA6B00890034 /* PostsPresenter.swift */,
 			);
 			path = Posts;
 			sourceTree = "<group>";
@@ -606,6 +609,7 @@
 				27A00E14260A8FC000890034 /* CommentDBModel.swift in Sources */,
 				27A00DCF260A640900890034 /* CompanyAPIModel.swift in Sources */,
 				27A00DD9260A66E400890034 /* APISpec.swift in Sources */,
+				27A00E8A260CBA6B00890034 /* PostsPresenter.swift in Sources */,
 				27A9E403260938C400E5D8D2 /* Factory.swift in Sources */,
 				27A00E05260A8E8B00890034 /* FetchedResultsControllerEntityObserver.swift in Sources */,
 				27A00E23260A919F00890034 /* PostDBModel.swift in Sources */,

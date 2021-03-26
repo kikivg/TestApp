@@ -21,4 +21,8 @@ class AppRouter {
         window?.makeKeyAndVisible()
     }
 
+    func pushPostDetailsViewController(post: PostModel) {
+        
+    }
+
 }

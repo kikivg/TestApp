@@ -9,6 +9,13 @@ import UIKit
 
 class PostsViewController: UIViewController {
 
+    var presenter: PostsPresenter!
+
+    convenience init(presenter: PostsPresenter) {
+        self.init()
+        self.presenter = presenter
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
