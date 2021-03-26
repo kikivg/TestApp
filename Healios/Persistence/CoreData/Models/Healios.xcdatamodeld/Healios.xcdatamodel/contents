@@ -42,7 +42,7 @@
         <attribute name="website" attributeType="String"/>
         <relationship name="address" maxCount="1" deletionRule="Cascade" destinationEntity="AddressDBModel" inverseName="user" inverseEntity="AddressDBModel"/>
         <relationship name="company" maxCount="1" deletionRule="Cascade" destinationEntity="CompanyDBModel" inverseName="user" inverseEntity="CompanyDBModel"/>
-        <relationship name="posts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PostDBModel" inverseName="user" inverseEntity="PostDBModel"/>
+        <relationship name="posts" toMany="YES" deletionRule="Cascade" destinationEntity="PostDBModel" inverseName="user" inverseEntity="PostDBModel"/>
     </entity>
     <elements>
         <element name="AddressDBModel" positionX="-554.76953125" positionY="-98.8828125" width="128" height="133"/>

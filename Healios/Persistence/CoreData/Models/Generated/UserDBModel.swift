@@ -17,7 +17,7 @@ class UserDBModel: NSManagedObject {
     @NSManaged private(set) var website: String
     @NSManaged private(set) var address: AddressDBModel
     @NSManaged private(set) var company: CompanyDBModel
-    @NSManaged private(set) var posts: Set<PostDBModel>?
+    @NSManaged private(set) var posts: Set<PostDBModel>
 
     @discardableResult
     static func insert(into context: NSManagedObjectContext, from userAPI: UserAPIModel) -> UserDBModel {
