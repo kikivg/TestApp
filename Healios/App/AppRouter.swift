@@ -10,14 +10,15 @@ import Dip
 
 class AppRouter: AppRouterProtocol {
 
-    private var navigationController: UINavigationController?
+    private weak var navigationController: UINavigationController?
 
     private let postsFactory = Factory<PostsViewController>()
     private let postDetailsFactory = Factory<PostDetailsViewController>()
 
     func configureMainInterface(in window: UIWindow?) {
         let postsViewController = postsFactory.create()
-        navigationController = UINavigationController(rootViewController: postsViewController)
+        let navigationController = UINavigationController(rootViewController: postsViewController)
+        self.navigationController = navigationController
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
